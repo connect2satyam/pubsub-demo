@@ -14,6 +14,7 @@ import { stats } from './stats.js';
 document.addEventListener('DOMContentLoaded', () => {
   let main = document.querySelector('main');
   let aside = document.querySelector('aside');
+  
   //add a movies module
   movies.render(main);
 
